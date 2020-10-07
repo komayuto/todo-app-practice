@@ -1,2 +1,55 @@
 @import 'header';
 @import 'variables';
+
+.container {
+  margin-top: 34px;
+  margin-left: 26px;
+
+  h2 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+  }
+}
+
+.text {
+  font-size: 18px;
+}
+
+.field {
+  margin-top: 30px;
+}
+
+.text_box {
+  width: 90%;
+  height: 40px;
+  left: 26px;
+  top: 190px;
+  
+  background: #F4F4F4;
+  border-radius: 10px;
+  border: 0px none;
+}
+
+.submit {
+  position: absolute;
+  width: 90%;
+  height: 40px;
+  left: 30px;
+  top: 709px;
+
+  background: #F8BD1C;
+  border-radius: 4px;
+
+  text-align: center;
+  border: 0px none;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+}

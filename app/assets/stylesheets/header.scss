@@ -5,7 +5,7 @@ header {
   margin-left: 30px;
   margin-bottom: 16px;
   width: 56px;
-  height: 25px;
+  height: 50px;
   p {
     position: absolute;
     font-family: Avenir;
@@ -14,10 +14,10 @@ header {
     font-size: 18px;
     line-height: 25px; 
   }
-  p.top_title {
-    border-bottom: 1px solid gray;
-    padding-bottom: 16px;
-    position: absolute;
-    width: 1920px;
-  }
 }
+    hr {
+    border-width: 1px 0px 0px 0px; /* 太さ1px */
+     border-style: solid; /* 線種を破線に */
+     border-color: gray;   /* 線色を灰色に */
+     height: 0px;    /* 高さ */
+    }
